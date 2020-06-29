@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo</title>
+    
+<script>
+           function clickNo(){
+              alert("Ola, mundo !");
+              console.log("ola")
+
+           }
+
+           function cap(){
+              var input = document.getElementById("meuInput");
+               var p = document.getElementById("mudar");
+    
+              p.textContent = input.value;
+
+             }
+
+
+</script>
+
+</head>
+
+
+<body>
+    <div>
+     <h1>Titulo</h1>
+     <h2>TItulo2</h2>
+     <p id="mudar">Qualquer texto</p>
+     <span>informação</span>
+    </div>
+
+     <img src="image.jpg">
+     <a href="https://google.com">Link para o google</a>
+
+    <div>
+     <input id="meuInput" type="text" oninput="cap()">
+      <select>
+       <option>Opção 1</option>
+       <option>Opção 2</option>
+       <option>Opção 3</option>
+       <option>Opção 4</option>
+      </select>
+      <button onclick="clickNo()">Texto do Botão</button>
+    </div>
+    
+</body>
+</html>
