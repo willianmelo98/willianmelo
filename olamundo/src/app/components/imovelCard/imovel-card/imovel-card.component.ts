@@ -6,7 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./imovel-card.component.css']
 })
 export class ImovelCardComponent implements OnInit {
-  imgImoveis:string = "/assets/mansão.jpg"
+  imgImoveis:string = "/assets/mansão.jpg";
+  price=5000000;
+  address = 'Cabo Frio - RJ';
+  owner ='Willian Melo';
+  type = 'Venda';
 
   constructor() { }
 

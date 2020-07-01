@@ -16,6 +16,12 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { ImovelCardComponent } from './components/imovelCard/imovel-card/imovel-card.component';
 import {MatCardModule} from '@angular/material/card';
+import {LOCALE_ID} from '@angular/core';
+import {registerLocaleData} from '@angular/common/';
+import locatePT from '@angular/common/locales/pt';
+import { HttpClientModule } from '@angular/common/http';
+
+registerLocaleData(locatePT,'pt-BR');
 
 
 @NgModule({
@@ -36,10 +42,17 @@ import {MatCardModule} from '@angular/material/card';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    HttpClientModule
 
   ],
-  providers: [],
+  providers: [{
+    provide: LOCALE_ID, useValue:'pt-BR'
+
+  }
+
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
