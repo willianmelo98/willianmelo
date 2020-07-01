@@ -1,0 +1,25 @@
+
+img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   width: 100%;
+}
+
+#lugarEvalor{
+  display: flex;
+  justify-content:space-between;
+
+  padding-top: 4px;
+
+
+}
+
+#proEvenda{
+  display: flex;
+  justify-content:space-between;
+  padding-top: 4px;
+
+
+}
