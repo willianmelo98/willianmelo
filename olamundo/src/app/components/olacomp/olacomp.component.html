@@ -1,20 +1,20 @@
 <div id="contener">
-<h1>{{titulo}}</h1>
-<p>{{dados}}</p>
+  <h1>{{titulo}}</h1>
+  <p>{{dados}}</p>
 
 
- <div class="bloco">
-    <input type="text" [(ngModel)]="dados"/>
-     <button (click)="executar()">Copiar o titulo</button>
+   <div class="bloco">
+      <input type="text" [(ngModel)]="dados"/>
+       <button (click)="executar()">Copiar o titulo</button>
+    </div>
+
+
+
+
+    <img *ngIf="mostrarImagem" [src]="imgUrl"/>
+
+    <div id="check">
+     <input type="checkbox" [(ngModel)]="mostrarImagem"/> mostrar imagem
+    </div>
+
   </div>
-
-
-
-
-  <img *ngIf="mostrarImagem" [src]="imgUrl"/>
-
-  <div id="check">
-   <input type="checkbox" [(ngModel)]="mostrarImagem"/> mostrar imagem
-  </div>
-
-</div>
