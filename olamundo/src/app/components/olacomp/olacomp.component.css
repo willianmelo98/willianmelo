@@ -1,0 +1,11 @@
+img{
+  width: 350px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+background-color: bisque;
+}
+
+#contener{
+  padding: 10px;
+  background-color: bisque;
+}
