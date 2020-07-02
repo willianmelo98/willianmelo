@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "olamundo"
+  "defaultProject": "olamundo",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -10,8 +10,8 @@ export class ImoveisAPIService {
 
   constructor(private httpClient: HttpClient) { }
 
-  public list(): Observable<ImovelModel[]>{
-    return this.httpClient.get<ImovelModel[]>('https://it3imoveis.firebaseio.com/vendas.json');
+  public List(): Observable<ImovelModel[]>{
+    return this.httpClient.get<ImovelModel[]>('https://it3imoveis.firebaseio.com/vendas.json')
   }
 
 

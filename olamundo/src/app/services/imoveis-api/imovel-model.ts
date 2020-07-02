@@ -1,5 +1,5 @@
 export class ImovelModel {
-  imgImoveis:string;
+  image:string;
   price:number;
   address:string;
   owner: string;
