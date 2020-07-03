@@ -10,6 +10,7 @@ import { ModelImoveis } from 'src/app/service/model-imoveis';
 export class ImovelCardComponent implements OnChanges {
 
   @Input() imoveis:ModelImoveis;
+
   image:string;
   price:number;
   address:string;
@@ -24,7 +25,8 @@ export class ImovelCardComponent implements OnChanges {
       this.image=this.imoveis.image;
       this.address= this.imoveis.address;
       this.owner= this.imoveis.owner;
-      this.price = this.price;
+      this.price = this.imoveis.price;
+      this.type = this.imoveis.type;
 
     }
 
