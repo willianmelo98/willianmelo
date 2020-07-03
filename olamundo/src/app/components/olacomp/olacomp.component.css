@@ -1,3 +1,5 @@
+
+
 img{
   width: 300px;
   padding-top: 10px;
@@ -8,4 +10,10 @@ background-color: bisque;
 #contener{
   padding: 10px;
   background-color: bisque;
+
 }
+
+mat-input-element{
+color: #000;
+}
+

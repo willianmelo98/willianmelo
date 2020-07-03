@@ -21,6 +21,7 @@ import {registerLocaleData} from '@angular/common/';
 import locatePT from '@angular/common/locales/pt';
 import { HttpClientModule } from '@angular/common/http';
 import { ImovelPageComponent } from './components/imovel-page/imovel-page/imovel-page.component';
+import {MatInputModule} from '@angular/material/input';
 
 registerLocaleData(locatePT,'pt-BR');
 
@@ -45,7 +46,8 @@ registerLocaleData(locatePT,'pt-BR');
     MatIconModule,
     MatListModule,
     MatCardModule,
-    HttpClientModule
+    HttpClientModule,
+    MatInputModule
 
   ],
   providers: [{

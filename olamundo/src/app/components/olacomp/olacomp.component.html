@@ -4,7 +4,12 @@
 
 
    <div class="bloco">
-      <input type="text" [(ngModel)]="dados"/>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Copiar dados </mat-label>
+        <textarea  matInput placeholder="Ex. It makes me feel..."  [(ngModel)]="dados" style="color: black;" ></textarea>
+      </mat-form-field>
+
        <button (click)="executar()">Copiar o titulo</button>
     </div>
 
