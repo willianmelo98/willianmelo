@@ -1,0 +1,65 @@
+
+
+
+Variant: debug
+Config: debug
+Store: C:\Users\willian.melo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: CB:A8:B1:7B:2B:7D:05:CC:7D:58:51:DD:F3:D8:09:06
+SHA1: FE:2A:5F:2B:59:93:D3:45:64:AA:08:AC:16:11:ED:BC:AF:4E:53:7D
+SHA-256: CB:EF:A6:50:73:25:F6:0E:2B:E4:19:7A:86:73:DA:CE:E6:A5:87:8A:1E:1A:1E:DC:5E:03:B0:A8:CD:D7:76:5C
+Valid until: quarta-feira, 16 de novembro de 2050
+----------
+Variant: releaseUnitTest
+Config: debug
+Store: C:\Users\willian.melo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: CB:A8:B1:7B:2B:7D:05:CC:7D:58:51:DD:F3:D8:09:06
+SHA1: FE:2A:5F:2B:59:93:D3:45:64:AA:08:AC:16:11:ED:BC:AF:4E:53:7D
+SHA-256: CB:EF:A6:50:73:25:F6:0E:2B:E4:19:7A:86:73:DA:CE:E6:A5:87:8A:1E:1A:1E:DC:5E:03:B0:A8:CD:D7:76:5C
+Valid until: quarta-feira, 16 de novembro de 2050
+----------
+Variant: profileUnitTest
+Config: debug
+Store: C:\Users\willian.melo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: CB:A8:B1:7B:2B:7D:05:CC:7D:58:51:DD:F3:D8:09:06
+SHA1: FE:2A:5F:2B:59:93:D3:45:64:AA:08:AC:16:11:ED:BC:AF:4E:53:7D
+SHA-256: CB:EF:A6:50:73:25:F6:0E:2B:E4:19:7A:86:73:DA:CE:E6:A5:87:8A:1E:1A:1E:DC:5E:03:B0:A8:CD:D7:76:5C
+Valid until: quarta-feira, 16 de novembro de 2050
+----------
+Variant: release
+Config: debug
+Store: C:\Users\willian.melo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: CB:A8:B1:7B:2B:7D:05:CC:7D:58:51:DD:F3:D8:09:06
+SHA1: FE:2A:5F:2B:59:93:D3:45:64:AA:08:AC:16:11:ED:BC:AF:4E:53:7D
+SHA-256: CB:EF:A6:50:73:25:F6:0E:2B:E4:19:7A:86:73:DA:CE:E6:A5:87:8A:1E:1A:1E:DC:5E:03:B0:A8:CD:D7:76:5C
+Valid until: quarta-feira, 16 de novembro de 2050
+----------
+Variant: profile
+Config: debug
+Store: C:\Users\willian.melo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: CB:A8:B1:7B:2B:7D:05:CC:7D:58:51:DD:F3:D8:09:06
+SHA1: FE:2A:5F:2B:59:93:D3:45:64:AA:08:AC:16:11:ED:BC:AF:4E:53:7D
+SHA-256: CB:EF:A6:50:73:25:F6:0E:2B:E4:19:7A:86:73:DA:CE:E6:A5:87:8A:1E:1A:1E:DC:5E:03:B0:A8:CD:D7:76:5C
+Valid until: quarta-feira, 16 de novembro de 2050
+----------
+Variant: debugUnitTest
+Config: debug
+Store: C:\Users\willian.melo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: CB:A8:B1:7B:2B:7D:05:CC:7D:58:51:DD:F3:D8:09:06
+SHA1: FE:2A:5F:2B:59:93:D3:45:64:AA:08:AC:16:11:ED:BC:AF:4E:53:7D
+SHA-256: CB:EF:A6:50:73:25:F6:0E:2B:E4:19:7A:86:73:DA:CE:E6:A5:87:8A:1E:1A:1E:DC:5E:03:B0:A8:CD:D7:76:5C
+Valid until: quarta-feira, 16 de novembro de 2050
+----------
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\willian.melo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: CB:A8:B1:7B:2B:7D:05:CC:7D:58:51:DD:F3:D8:09:06
+SHA1: FE:2A:5F:2B:59:93:D3:45:64:AA:08:AC:16:11:ED:BC:AF:4E:53:7D
+SHA-256: CB:EF:A6:50:73:25:F6:0E:2B:E4:19:7A:86:73:DA:CE:E6:A5:87:8A:1E:1A:1E:DC:5E:03:B0:A8:CD:D7:76:5C
+Valid until: quarta-feira, 16 de novembro de 2050

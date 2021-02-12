@@ -1,76 +1,42 @@
+
+import 'package:bytebank/models/saldo.dart';
+import 'package:bytebank/models/transferencias.dart';
+import 'package:bytebank/screens/dashboard/dashboard.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(
-    MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Transferencias'),
-        ),
-
-        body:ListaTransferencias(),
-
-        // ignore: missing_required_param
-        floatingActionButton: FloatingActionButton(
-          child: Icon(Icons.add),
-        ),
+  runApp(MultiProvider(
+    providers: [
+      ChangeNotifierProvider(
+        create: (context) => Saldo(0),
       ),
-    ),
-  );
+      ChangeNotifierProvider(
+        create: (context) => Transferencias(),
+      )
+    ],
+    child: BytebankApp(),
+  ));
 }
 
-class Transferencia {
-
-  final double valor;
-  final int numeroConta;
-  Transferencia(this.valor, this.numeroConta);
-
-
-}
-
-
-
-
-class ItemTransferencia extends StatelessWidget{
-     
-  final Transferencia _transferencia;
-
-  const ItemTransferencia( this._transferencia);
-
-
+class BytebankApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-       
-       return Card(
-          child: ListTile(
-            leading: Icon(Icons.monetization_on),
-            title: Text(_transferencia.valor.toString()),
-            subtitle: Text(_transferencia.numeroConta.toString()),
-          ),
-        );
+    return MaterialApp(
+      home: Dashboard(),
+      theme: ThemeData(
+          primaryColor: Colors.grey[900],
+          accentColor: Colors.deepOrangeAccent[700],
+          buttonTheme: ButtonThemeData(
+              buttonColor: Colors.deepOrangeAccent[700],
+              textTheme: ButtonTextTheme.primary)),
+    );
   }
-
 }
 
+// Criando um  objeto  para abstrair o codigo um pouco mais...
+// Esse objeto traz os atributos do objeto transferencia, para representar  as variaveis mais simples
+// que seram necessarios no codigo, como a variavel "valor" e a variavel "numeroConta"
 
-
- class ListaTransferencias extends  StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    // TODO: implement build
-
-      return Column(
-
-        children: <Widget>[
-            ItemTransferencia(Transferencia(10.0, 1000)),
-            ItemTransferencia(Transferencia(20.0, 2000)),
-            ItemTransferencia(Transferencia(30.0, 3000)),
-           
-        ],         
-      );
-  }
-
-
-}
-
+// criando um widget que estancia o objeto transferencia.
+// Esse objeto constroi um card com as informações do objeto

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1085254417346",
+    "project_id": "oiki-sports",
+    "storage_bucket": "oiki-sports.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085254417346:android:14321b9ce11f77f8d9345b",
+        "android_client_info": {
+          "package_name": "com.OIKISports.OIKI"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085254417346-b2j6104utripdhevpj7v14i8sbh6t6p8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.OIKISports.OIKI",
+            "certificate_hash": "fe2a5f2b5993d34564aa08ac1611edbcaf4e537d"
+          }
+        },
+        {
+          "client_id": "1085254417346-jja6fgc0j8huap8vsr5o6bn6352o1ubk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc6JtdLUS5qqjXkpCRUx_x-VQn4xVkhgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085254417346-jja6fgc0j8huap8vsr5o6bn6352o1ubk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

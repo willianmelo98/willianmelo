@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources >
+<string name="app_name" >Tatui Surf</string>
+
+
+  <string name="facebook_app_id" translatable="false">2918930238341373</string>
+<string name="fb_login_protocol_scheme" translatable="false">fb2918930238341373</string>
+
+</resources>

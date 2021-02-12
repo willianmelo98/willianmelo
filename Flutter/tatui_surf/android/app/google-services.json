@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "824816778192",
+    "project_id": "tatui-surf",
+    "storage_bucket": "tatui-surf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824816778192:android:3f94c8243979a1f88157d5",
+        "android_client_info": {
+          "package_name": "com.tatui_surf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824816778192-0dc3ilq1t72ab6vusn57ts854bh8ker6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tatui_surf",
+            "certificate_hash": "fe2a5f2b5993d34564aa08ac1611edbcaf4e537d"
+          }
+        },
+        {
+          "client_id": "824816778192-emck34qfg2feagcpss26unmldvuaa5u4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4j9btzU7zF2aRd_3ILDtKYi7VYq0TkZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824816778192-emck34qfg2feagcpss26unmldvuaa5u4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
