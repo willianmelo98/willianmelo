@@ -1,0 +1,63 @@
+table {
+  width: 100%;
+}
+
+tr.mat-footer-row {
+  font-weight: bold;
+}
+
+
+th.mat-header-cell:first-of-type, td.mat-cell:first-of-type, td.mat-footer-cell:first-of-type {
+  padding-left: 14px;
+}
+
+
+
+.preco{
+  display: flex;
+  justify-content:  flex-end;
+}
+
+.logoGasto{
+  padding-right: 5px;
+}
+
+.alignGastosLogo{
+  display: flex;
+}
+
+.orçamento{
+  display: flex;
+   align-items: center;
+   font-size: 14px;
+   justify-content: flex-end;
+
+}
+#gasto{
+  justify-content: flex-start !important;
+
+}
+.textoIcon{
+  padding-left: 5px;
+}
+.totalFooder{
+  display: none;
+}
+
+
+
+
+.botao{
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+
+}
+
+.iconAdd{
+  font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

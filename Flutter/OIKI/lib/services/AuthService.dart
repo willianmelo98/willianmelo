@@ -57,7 +57,7 @@ class AuthService {
 
 
   
-  void signInWithGoogle() async {
+   signInWithGoogle() async {
 
     try{
       final FirebaseAuth firebaseAuth = FirebaseAuth.instance;

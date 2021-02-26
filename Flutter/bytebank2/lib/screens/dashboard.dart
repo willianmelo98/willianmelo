@@ -1,4 +1,5 @@
 import 'package:bytebank2/screens/ListaContatos.dart';
+import 'package:bytebank2/screens/lista_transa%C3%A7%C3%B5es.dart';
 import 'package:flutter/material.dart';
 
 class Dashboard extends StatelessWidget {
@@ -19,9 +20,8 @@ class Dashboard extends StatelessWidget {
           Container(
             height: 120,
             child: ListView(
-
               scrollDirection: Axis.horizontal,
-              children:<Widget> [
+              children: <Widget>[
                 _FeatureItem(
                   'Transferencia',
                   Icons.monetization_on,
@@ -32,9 +32,8 @@ class Dashboard extends StatelessWidget {
                 _FeatureItem(
                   'extrato transações',
                   Icons.description,
-                  onClick: (){
-                        print('transfer was clicked');
-
+                  onClick: () {
+                    _mostrarListaTransacoes(context);
                   },
                 ),
               ],
@@ -45,17 +44,22 @@ class Dashboard extends StatelessWidget {
     );
   }
 
+  _mostrarListaContatos(BuildContext context) {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (context) => ListaContatos(),
+      ),
+    );
+  }
 
-  _mostrarListaContatos(BuildContext context){
-     Navigator.of(context).push(
-                MaterialPageRoute(
-                  builder: (context) => ListaContatos(),
-                ),
-              );
+  _mostrarListaTransacoes(BuildContext context) {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (context) => ListaTransacoes(),
+      ),
+    );
   }
 }
-
-
 
 class _FeatureItem extends StatelessWidget {
   final String nome;
@@ -72,7 +76,6 @@ class _FeatureItem extends StatelessWidget {
         child: InkWell(
             onTap: () {
               onClick();
-             
             },
             child: Container(
               width: 120,
