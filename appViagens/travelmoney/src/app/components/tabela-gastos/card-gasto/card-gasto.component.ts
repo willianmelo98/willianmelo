@@ -47,9 +47,9 @@ export class CardGastoComponent implements OnChanges {
   editarGasto(item: Gasto){
     this.dialog.open(EditarGastoComponent,{
       data:{
-        tipoPagameto:item.tipoPagamento, idgasto: item.idgasto,item:item.item, categoria: item.categoria,preco:item.preco,
+        tipoPagamento:item.tipoPagamento, idgasto: item.idgasto,item:item.item, categoria: item.categoria,preco:item.preco,
 
-      },width:'100vw',height:"90vh"
+      },width:'100%',height:"90vh"
     });
   }
 

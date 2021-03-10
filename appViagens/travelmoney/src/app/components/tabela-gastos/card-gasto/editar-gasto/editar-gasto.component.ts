@@ -54,6 +54,7 @@ export class EditarGastoComponent implements OnInit {
     this.gasto = new Gasto();
     this.labelButton = 'Atualizar';
     console.log(this.data)
+    console.log(this.data.tipoPagamento)
 
     this.editProject(this.data);
     this.edit = true;
