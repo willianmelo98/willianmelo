@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TabelaSomatoriaComponent } from './tabela-somatoria.component';
+import { AddGastoComponent } from './add-gasto.component';
 
-describe('TabelaSomatoriaComponent', () => {
-  let component: TabelaSomatoriaComponent;
-  let fixture: ComponentFixture<TabelaSomatoriaComponent>;
+describe('AddGastoComponent', () => {
+  let component: AddGastoComponent;
+  let fixture: ComponentFixture<AddGastoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TabelaSomatoriaComponent ]
+      declarations: [ AddGastoComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TabelaSomatoriaComponent);
+    fixture = TestBed.createComponent(AddGastoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
