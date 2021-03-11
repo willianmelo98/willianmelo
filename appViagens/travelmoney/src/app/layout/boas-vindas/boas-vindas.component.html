@@ -1,14 +1,21 @@
 <mat-card>
   <div class="textoBoasVindas">
-  <h1 >Seja bem vindo !</h1></div>
+    <h1>Seja bem vindo !</h1>
+  </div>
   <mat-card>
-    <div>Selecione uma viagem para começar </div>
+    <mat-list>
+      <mat-list-item>
+        Selecione uma viagem para começar
+        <mat-divider></mat-divider>
 
+      </mat-list-item>
+    </mat-list>
     <mat-list>
       <mat-list-item *ngFor="let item of viagem | async" (click)='atualizaTabela(item)'
-      [routerLink]="['/gastos',item.idviagem]">      <div> {{item.lugar}}</div>
-      <mat-divider></mat-divider>
-    </mat-list-item>
+        [routerLink]="['/gastos',item.idviagem]">
+        <div> {{item.lugar}}</div>
+        <mat-divider></mat-divider>
+      </mat-list-item>
 
     </mat-list>
 
