@@ -59,8 +59,21 @@
         <div class="control-group">
           <div class="form-group floating-div-form-group controls mb-0 pb-2">
             <div>Metodo de pagamento</div>
-            <input class="form-control" formControlName="tipoPagamento" type="text" placeholder="Cartão/dinheiro">
 
+            <mat-button-toggle-group formControlName="tipoPagamento">
+              <mat-button-toggle value={{urlIconCartaopay}}>
+
+               <div><img src={{urlIconCartaopay}} width="40"></div>
+                <div>Debito/Credito</div>
+              </mat-button-toggle>
+
+              <mat-button-toggle value={{urlIconMoney}}>
+                <div><img src={{urlIconMoney}} width="40"></div>
+                <div>Dinheiro</div>
+              </mat-button-toggle>
+
+
+            </mat-button-toggle-group>
 
           </div>
         </div>
