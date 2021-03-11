@@ -1,0 +1,15 @@
+[debug] [2021-03-11T21:07:02.440Z] ----------------------------------------------------------------------
+[debug] [2021-03-11T21:07:02.442Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\willian.melo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting
+[debug] [2021-03-11T21:07:02.442Z] CLI Version:   9.5.0
+[debug] [2021-03-11T21:07:02.442Z] Platform:      win32
+[debug] [2021-03-11T21:07:02.443Z] Node Version:  v12.18.4
+[debug] [2021-03-11T21:07:02.443Z] Time:          Thu Mar 11 2021 18:07:02 GMT-0300 (GMT-03:00)
+[debug] [2021-03-11T21:07:02.443Z] ----------------------------------------------------------------------
+[debug] [2021-03-11T21:07:02.443Z] 
+[debug] [2021-03-11T21:07:02.446Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-03-11T21:07:02.467Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-11T21:07:02.468Z] > authorizing via signed-in user
+[debug] [2021-03-11T21:07:02.468Z] [iam] checking project travel-money-app for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-03-11T21:07:02.469Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-03-11T21:07:02.470Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>

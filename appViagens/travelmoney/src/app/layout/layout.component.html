@@ -14,7 +14,7 @@
       </a>
       <div *ngIf="messages" class="alert alert-success" role="alert"> {{messages}} </div>
 
-      <a mat-list-item href="add"> Adicionar Viagem </a>
+      <a mat-list-item routerLink="add"> Adicionar Viagem </a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -27,7 +27,7 @@
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>travelmoney</span>
+      <span  [routerLink]="['']"> travelmoney</span>
     </mat-toolbar>
 
     <router-outlet></router-outlet>

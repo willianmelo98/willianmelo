@@ -1,0 +1,10 @@
+.textoBoasVindas{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botaoAddViagem{
+ padding: 15px 15px;
+}

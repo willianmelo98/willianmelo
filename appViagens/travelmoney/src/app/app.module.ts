@@ -36,6 +36,9 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { EditarGastoComponent } from './components/tabela-gastos/card-gasto/editar-gasto/editar-gasto.component';
 import {MatDialogModule} from '@angular/material/dialog';
+import { BoasVindasComponent } from './layout/boas-vindas/boas-vindas.component';
+import {MatDividerModule} from '@angular/material/divider';
+
 
 
 
@@ -52,6 +55,7 @@ import {MatDialogModule} from '@angular/material/dialog';
     TabelaGastosComponent,
     CardGastoComponent,
     EditarGastoComponent,
+    BoasVindasComponent,
 
   ],
   imports: [
@@ -67,6 +71,7 @@ import {MatDialogModule} from '@angular/material/dialog';
     MatListModule,
     MatCardModule,
     MatTableModule,
+    MatDividerModule,
     ReactiveFormsModule,
     MatExpansionModule,
     FormsModule,

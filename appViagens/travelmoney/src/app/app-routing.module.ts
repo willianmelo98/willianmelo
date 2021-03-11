@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { AddViagemComponent } from './components/add-viagem/add-viagem.component';
 import { AddGastoComponent } from './components/addGastos/add-gasto/add-gasto.component';
 import { TabelaGastosComponent } from './components/tabela-gastos/tabela-gastos.component';
+import { BoasVindasComponent } from './layout/boas-vindas/boas-vindas.component';
 import { LayoutComponent } from './layout/layout.component';
 
 const routes: Routes = [
@@ -13,6 +14,10 @@ const routes: Routes = [
      {
       path:'add',
       component:AddViagemComponent
+    },
+    {
+      path:'',
+      component:BoasVindasComponent
     },
     {
       path:'addGasto/:idviagem/:lugar',

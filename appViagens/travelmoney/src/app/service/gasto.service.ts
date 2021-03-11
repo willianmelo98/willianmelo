@@ -44,6 +44,9 @@ export class GastoService {
   }
 
 
+
+
+
   update(gasto: Gasto): Promise<void> {
     return this.projectCol.doc(gasto.idgasto)
       .update(Object.assign({},gasto))
