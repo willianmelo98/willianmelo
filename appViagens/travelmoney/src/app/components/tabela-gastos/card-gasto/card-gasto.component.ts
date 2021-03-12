@@ -49,7 +49,7 @@ export class CardGastoComponent implements OnChanges {
       data:{
         tipoPagamento:item.tipoPagamento, idgasto: item.idgasto,item:item.item, categoria: item.categoria,preco:item.preco,
 
-      },width:'100%',height:"90vh"
+      },width:'100%',height:"85vh", maxWidth:'98vw'
     });
   }
 

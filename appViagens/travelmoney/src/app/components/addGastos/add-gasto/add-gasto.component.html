@@ -19,8 +19,8 @@
             <section>
               <div>Categoria</div>
               <mat-button-toggle-group formControlName="categoria">
-                <mat-button-toggle value={{urlIconRestaurante}}>
 
+                <mat-button-toggle value={{urlIconRestaurante}}>
                  <div><img src={{urlIconRestaurante}} width="40"></div>
                   <div>Restaurante</div>
                 </mat-button-toggle>
@@ -35,8 +35,24 @@
                  <div> <img src={{urlIconMercado}} width="40"></div>
                   <div>Mercado</div>
                 </mat-button-toggle>
+                <mat-divider></mat-divider>
 
 
+                <mat-button-toggle value={{urlIconNote}}>
+                  <div><img src={{urlIconNote}} width="40"></div>
+                   <div>Outros</div>
+                 </mat-button-toggle>
+
+                 <mat-button-toggle value={{urlIconEstadia}}>
+                   <div><img src={{urlIconEstadia}} width="40"></div>
+                   <div>Estadia</div>
+                 </mat-button-toggle>
+
+
+                 <mat-button-toggle value={{urlIconCafe}}>
+                  <div> <img src={{urlIconCafe}} width="40"></div>
+                   <div>Cafe</div>
+                 </mat-button-toggle>
 
               </mat-button-toggle-group>
             </section>

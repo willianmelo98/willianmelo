@@ -13,6 +13,7 @@ import { ViagemService } from 'src/app/service/viagem.service';
 })
 export class TabelaGastosComponent implements OnInit {
 
+
   gasto: Observable<Gasto[]>;
   viagem: Observable<Viagem[]>;
   viagemObjeto: Viagem;

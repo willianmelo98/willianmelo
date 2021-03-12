@@ -18,22 +18,40 @@
 
             <section>
               <div>Categoria</div>
-              <mat-button-toggle-group formControlName="categoria">
-                <mat-button-toggle value={{urlIconRestaurante}}>
+              <mat-button-toggle-group formControlName="categoria" class="grupoCardCategoria">
 
-                 <div><img src={{urlIconRestaurante}} width="40"></div>
-                  <div>Restaurante</div>
+                <mat-button-toggle value={{urlIconRestaurante}}>
+                  <div class="iconsCategoria"><img src={{urlIconRestaurante}} width="40" style="margin-top: 5px;"></div>
+                  <div class="textoIconCategoria">Restaurante</div>
                 </mat-button-toggle>
 
                 <mat-button-toggle value={{urlIconPassagens}}>
-                  <div><img src={{urlIconPassagens}} width="40"></div>
-                  <div>Transporte</div>
+                  <div class="iconsCategoria"><img src={{urlIconPassagens}} width="40" style="margin-top: 5px;"></div>
+                  <div class="textoIconCategoria">Transporte</div>
                 </mat-button-toggle>
 
 
                 <mat-button-toggle value={{urlIconMercado}}>
-                 <div> <img src={{urlIconMercado}} width="40"></div>
-                  <div>Mercado</div>
+                  <div class="iconsCategoria"> <img src={{urlIconMercado}} width="40" style="margin-top: 5px;"></div>
+                  <div class="textoIconCategoria">Mercado</div>
+                </mat-button-toggle>
+
+               <mat-divider></mat-divider>
+
+                <mat-button-toggle   value={{urlIconNote}}>
+                  <div class="iconsCategoria"><img src={{urlIconNote}} width="40" style="margin-top: 5px;"></div>
+                  <div class="textoIconCategoria">Outros</div>
+                </mat-button-toggle>
+
+                <mat-button-toggle  value={{urlIconEstadia}}>
+                  <div class="iconsCategoria"><img src={{urlIconEstadia}} width="40" style="margin-top: 5px;"></div>
+                  <div class="textoIconCategoria">Estadia</div>
+                </mat-button-toggle>
+
+
+                <mat-button-toggle value={{urlIconCafe}}>
+                  <div class="iconsCategoria"> <img src={{urlIconCafe}} width="40" style="margin-top: 5px;"></div>
+                  <div class="textoIconCategoria">Cafe</div>
                 </mat-button-toggle>
 
 
@@ -60,16 +78,20 @@
           <div class="form-group floating-div-form-group controls mb-0 pb-2">
             <div>Metodo de pagamento</div>
 
-            <mat-button-toggle-group formControlName="tipoPagamento">
-              <mat-button-toggle value={{urlIconCartaopay}}>
+            <mat-button-toggle-group formControlName="tipoPagamento" class='grupoCardPagamento'>
 
-               <div><img src={{urlIconCartaopay}} width="40"></div>
-                <div>Debito/Credito</div>
+              <mat-button-toggle style=" width:114px" value={{urlIconCartaopay}}>
+
+                <div class="iconsPagamento"><img src={{urlIconCartaopay}} width="40">
+                  <div class="textoIconPagamento">Debito/Credito</div>
+                </div>
               </mat-button-toggle>
 
-              <mat-button-toggle value={{urlIconMoney}}>
-                <div><img src={{urlIconMoney}} width="40"></div>
-                <div>Dinheiro</div>
+              <mat-button-toggle style=" width:114px" value={{urlIconMoney}}>
+                <div class="iconsPagamento"><img src={{urlIconMoney}} width="40">
+                  <div class="textoIconPagamento">Dinheiro</div>
+
+                </div>
               </mat-button-toggle>
 
 
@@ -78,7 +100,7 @@
           </div>
 
 
-          </div>
+        </div>
 
         <br>
         <div *ngIf="mensagem" class="alert alert-success" role="alert"> {{mensagem}} </div>
